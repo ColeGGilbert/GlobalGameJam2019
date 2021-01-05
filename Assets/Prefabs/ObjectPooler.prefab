@@ -1,0 +1,106 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &2588286048299794896
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2588286048299794862}
+  - component: {fileID: 2588286048299794863}
+  m_Layer: 0
+  m_Name: ObjectPooler
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2588286048299794862
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2588286048299794896}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &2588286048299794863
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2588286048299794896}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dacdaea9b0e41bb4b968db7f4199d368, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  pools:
+  - tag: ObsBlock1
+    prefab: {fileID: 1272648111808556, guid: 1675899c7e40f4a48a7891c117103bdf, type: 3}
+    size: 25
+  - tag: ObsBlock2
+    prefab: {fileID: 1625773106622520, guid: 62f3311cf8a78624c9392771bacb7c5e, type: 3}
+    size: 25
+  - tag: ObsBlock3
+    prefab: {fileID: 1550690109886452, guid: b3a058e733a388d488caa37681caa8eb, type: 3}
+    size: 25
+  - tag: ObsBlock4
+    prefab: {fileID: 1567144985361354, guid: 134bbd7f980c0d54b9afaee965955c35, type: 3}
+    size: 25
+  - tag: ObsBlock5
+    prefab: {fileID: 1534880608716118, guid: ade29aa75f60213499de8a42438b10c2, type: 3}
+    size: 25
+  - tag: ObsBlock6
+    prefab: {fileID: 1691905774335232, guid: 46f7e2e19247f9f4695c659fcec1ae6d, type: 3}
+    size: 25
+  - tag: ObsBlock7
+    prefab: {fileID: 1543178210329354, guid: d22e0125cdb772e4c9d00bbeb9a2f400, type: 3}
+    size: 25
+  - tag: ObsBlock8
+    prefab: {fileID: 1137539316303464, guid: 4a2a8bd39e84af644b54dd960380e8d8, type: 3}
+    size: 25
+  - tag: ObsBlock9
+    prefab: {fileID: 1077663569158562, guid: 1e9909409c4a45a4b9b9517aa2703c54, type: 3}
+    size: 25
+  - tag: ObsBlock10
+    prefab: {fileID: 1589439371578500, guid: 3292c00f9193dd242980cdc36cd665dc, type: 3}
+    size: 25
+  - tag: ObsBlock11
+    prefab: {fileID: 1956160774460312, guid: 01b04180fd27f5e48a36f9f6bb72e874, type: 3}
+    size: 25
+  - tag: ObsBlock12
+    prefab: {fileID: 1584362864604930, guid: 3e03587a7ef0aab44a875c8602af6bbd, type: 3}
+    size: 25
+  - tag: ObsBlock13
+    prefab: {fileID: 1257286289113486, guid: dbab280bca803704d9a4ce5d97ff3940, type: 3}
+    size: 25
+  - tag: ObsBlock14
+    prefab: {fileID: 1347615465384366, guid: 15a7a7f79fdc1604184c4bebed1857a9, type: 3}
+    size: 25
+  - tag: SafeBlock1
+    prefab: {fileID: 1617050083852118, guid: b8907fba50f3d6849a68a89afa4a02cc, type: 3}
+    size: 25
+  - tag: SafeBlock2
+    prefab: {fileID: 1732913993006632, guid: 60c124f62ae0480489ef7746809c93ee, type: 3}
+    size: 25
+  - tag: SafeBlock3
+    prefab: {fileID: 1225695253197322, guid: 4fd15c809802ce942877e7e17d7d8963, type: 3}
+    size: 25
+  - tag: SafeBlock4
+    prefab: {fileID: 1258178470554632, guid: 3499b929ee94a614c811aa5ab9115343, type: 3}
+    size: 25
+  - tag: SpeedPickup
+    prefab: {fileID: 1655012777023320, guid: af17442e478893f4a89c2dc9b1c4c8ce, type: 3}
+    size: 25
+  - tag: WoodPickup
+    prefab: {fileID: 1760590233462052, guid: 3400b2422cd5cdf4a9f624c81d49eb5a, type: 3}
+    size: 25
